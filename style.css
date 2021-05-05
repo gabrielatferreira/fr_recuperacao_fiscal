@@ -95,6 +95,26 @@ nav a:hover, nav a:focus, nav a:active {
     padding-bottom: 5%;
 }
 
+.outros_titulos_simples {
+    font-family: 'Belleza', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 0.6%;
+}
+
+.outros_titulos_simplesnacional {
+    font-family: 'Belleza', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
 img.logo_outros {
     padding: 2%;
     width: 120px;

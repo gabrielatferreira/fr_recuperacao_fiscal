@@ -50,6 +50,17 @@
         padding-top: 6%;
     }
 
+    h1.outros_titulos_simples {
+        transition: 1s all;
+        font-size: 25px;
+        padding-top: 0.6%;
+    }
+    
+    h1.outros_titulos_simplesnacional {
+        transition: 1s all;
+        font-size: 25px;
+    }
+
     /*servicos*/
 
     .exemplos_servicos {
@@ -177,6 +188,17 @@
         transition: 1s all;
         font-size: 28px;
         padding-top: 2%;
+    }
+
+    h1.outros_titulos_simples {
+        transition: 1s all;
+        font-size: 28px;
+        padding-top: 0.6%;
+    }
+    
+    h1.outros_titulos_simplesnacional {
+        transition: 1s all;
+        font-size: 28px;
     }
 
     img.logo_outros {
