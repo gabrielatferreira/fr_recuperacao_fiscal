@@ -1,0 +1,234 @@
+@media (max-width: 800px) {
+    
+    /* header*/
+
+    .home_titulo {
+        transition: 1s all;
+        font-size: 250%;
+        padding-top: 30px;
+    }
+    
+    img.logo_home {
+        transition: 1s all;
+        width: 120px;
+        height: 80px;
+    }
+
+    .home_slogan {
+        transition: 1s all;
+        font-size: 80%;
+        text-align: right;
+        padding-right: 5%;
+    }
+
+    .home_navegacao {
+        transition: 1s all;
+        font-size: 15px;
+        padding: 0.5%;
+    }
+
+    nav a:hover {
+        font-size: 18px;
+    }
+
+    /*sobre o felipe*/
+
+    img.perfil_sobreofelipe {
+        display: none;
+    }
+
+    p.textos {
+        padding-right: 5%;
+        padding-left: 5%;
+        transition: 1s all;
+        font-size: 18px;
+    }
+
+    h1.outros_titulos {
+        transition: 1s all;
+        font-size: 25px;
+        padding-top: 6%;
+    }
+
+    /*servicos*/
+
+    .exemplos_servicos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exemplos_servicos_detalhe {
+        transition: 1s all;
+        margin-bottom: 8px;
+        width: 60%;
+        height: 110px;
+    }
+
+    /*segmentos*/
+
+    .exemplos_segmentos {
+        display: flex;
+        flex-direction: column;
+        padding-left: 6%;
+    }
+
+    .exemplos_segmentos_detalhe {
+        padding-top: 8%;
+        transition: 1s all;
+        margin-bottom: 10px;
+        width: 83%;
+        height: 230px;
+    }
+
+    p {
+        transition: 1s all;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    /*contato*/
+
+    .contato_detalhe {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo_whats {
+        width: 11%;
+        height: 58%;
+        padding: 3%;
+    }
+
+    p.email, p.telefone {
+        transition: 1s all;
+        font-size: 17px;
+    }
+
+    h4 {
+        transition: 1s all;
+        font-size: 18px;
+    }
+
+    form label {
+        font-size: 18px;
+    }
+
+    .input_padrao {
+      width: 100%;
+      float: left;
+      padding-left: 1px;
+    }
+
+    .enviar {
+        transition: 1s all;
+        float: left;
+        font-size: 14px;
+        width: 150px;
+    }
+
+    .enviar:hover {
+        transform: scale(1.1);
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1400px) {
+    
+    /* header*/
+
+    .home_titulo {
+        transition: 1s all;
+        font-size: 350%;
+        padding-top: 45px;
+    }
+    
+    img.logo_home {
+        transition: 1s all;
+        width: 260px;
+        height: 180px;
+    }
+
+    .home_slogan {
+        transition: 1s all;
+        font-size: 120%;
+        text-align: right;
+        padding-right: 10%;
+    }
+
+    .home_navegacao {
+        transition: 1s all;
+        font-size: 22px;
+        padding: 0.8%;
+    }
+
+    nav a:hover {
+        font-size: 26px;
+    }
+    
+    /*sobre o felipe*/
+
+    p.textos {
+        padding-right: 10%;
+        padding-left: 1%;
+        transition: 1s all;
+        font-size: 21px;
+    }
+
+    h1.outros_titulos {
+        transition: 1s all;
+        font-size: 28px;
+        padding-top: 2%;
+    }
+
+    img.logo_outros {
+        padding-top: 2%;
+        padding-bottom: 0.2%;
+        width: 120px;
+        height: 80px;
+    }
+
+     /*servicos*/
+
+    .exemplos_servicos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .exemplos_servicos_detalhe {
+        transition: 1s all;
+        margin-bottom: 8px;
+        width: 60%;
+        height: 130px;
+    }
+
+    .exemplos_frase1, .exemplos_frase3 {
+        margin-top: 6%;
+    }
+
+    /*segmentos*/
+
+    .exemplos_segmentos {
+        display: flex;
+        flex-direction: column;
+        padding-left: 6%;
+    }
+
+    .exemplos_segmentos_detalhe {
+        padding-top: 2%;
+        transition: 1s all;
+        margin-bottom: 10px;
+        width: 50%;
+        height: 260px;
+    }
+
+    p {
+        transition: 1s all;
+        font-size: 22px;
+        text-align: center;
+    }
+
+    /*contato*/
+
+    .input_padrao {
+        width: 60%;
+    }
+}

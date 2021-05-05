@@ -1,0 +1,333 @@
+/* header*/
+
+#fr_home {
+    background-image: url('imagens/header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 80px 0 40px 0;
+    text-align: center;
+}
+
+img.logo_home {
+    width: 320px;
+    height: 220px;
+}
+
+.home_titulo {
+    font-family: 'Belleza', sans-serif;
+    font-size: 500%;
+    font-weight: bold;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home_slogan {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 140%;
+    font-weight: bold;
+    padding-bottom: 40px;
+    margin-left: 49%;
+}
+
+ul {
+    margin-top: 4%;
+    text-align: right;
+}
+
+.home_navegacao {
+    display: inline;
+    font-family: 'Belleza', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 2%;
+}
+
+nav a {
+    text-decoration: none;
+    color:#000000;
+}
+
+nav a:hover, nav a:focus, nav a:active {
+    transition: 1s all;
+    font-size: 31px;
+}
+
+/*sobre o felipe*/
+
+#fr_servicos, #fr_segmentos, #fr_contato {
+    text-align: center;
+}
+
+#fr_sobreofelipe {
+    background-color: #FFA500;
+    display: flex;
+    align-items: center;
+}
+
+.sobreofelipe_detalhe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.outros_titulos {
+    font-family: 'Belleza', sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+img.logo_outros {
+    padding: 2%;
+    width: 120px;
+    height: 80px;
+}
+
+img.logo_outros_sobreofelipe {
+    padding: 5%;
+    width: 120px;
+    height: 80px;
+}
+
+img.perfil_sobreofelipe {
+    padding-top: 8%;
+    padding-right: 7%;
+    padding-left: 20%;
+    width: 18%;
+    height: 15%;
+}
+
+p.textos {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: justify;
+    flex-direction: column;
+}
+
+/*servicos*/
+
+.gradiente {
+    background: linear-gradient(#FFA500, #FEFEFE)
+}
+
+#fr_servicos {
+    background-color: #FEFEFE;
+}
+
+.exemplos_servicos {
+    display: flex;
+    align-items: center;
+    padding: 2%;
+}
+
+.exemplos_servicos_detalhe {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 2%;
+   border: 4px solid #FFA500;
+   border-radius: 30px;
+   margin-right: 10px;
+   width: 30%;
+   height: 100px;
+}
+
+.exemplos_servicos_detalhe:hover, .exemplos_servicos_detalhe:active {
+    transition: 1s all;
+    border: 8px solid #FF8C00;
+}
+
+.exemplos_frase1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.exemplos_frase2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.exemplos_frase3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 11%;
+}
+
+/*segmentos*/
+
+.gradiente_inverso {
+    background: linear-gradient(#FFA500, #FEFEFE);
+}
+
+#fr_segmentos {
+    background-color: #FFA500;
+}
+
+.exemplos_segmentos {
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+}
+
+.exemplos_segmentos_detalhe {
+    padding: 2%;
+    border: 4px solid #202020;
+    border-radius: 30px 0 30px 0;
+    margin-right: 15px;
+    width: 26%;
+    height: 290px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+/*contato*/
+
+.gradiente {
+    background: linear-gradient(#FEFEFE, #FFA500)
+}
+
+#fr_contato {
+    background-color: #FEFEFE;
+    align-items: center;
+    padding: 5%;
+}
+
+.logo_email {
+    width: 10%;
+    height: 62%;
+    padding: 3%;
+}
+
+.logo_whats {
+    width: 19%;
+    height: 66%;
+    padding: 3%;
+}
+
+.contato_detalhe {
+    display: inline-flex;
+    text-align: center;
+}
+
+p.email, p.telefone {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    padding-bottom: 3%;
+    text-align: justify;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.input_padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 0.8% 1.5%;
+	width: 46%;
+    border-radius: 5px;
+}
+input {
+    display: flex;
+    justify-content: center;
+}
+
+.enviar {
+    text-align: left;
+    width: 200px;
+	padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	background: #FFA500;
+    font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	color: #000000;
+	font-size: 18px;
+	border-radius: 8px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover, .enviar:focus, .enviar:active {
+    transform: scale(1.2);
+}
+
+.voltar_topo {
+    text-align: right;
+    font-family: 'Belleza', sans-serif;
+    font-size: 120%;
+    cursor: pointer;
+}
+
+ol a {
+    text-decoration: none;
+    color:#FF8C00;
+}
+
+/*footer*/
+
+.gradiente_footer {
+    background: linear-gradient(#FEFEFE, #FFA500)
+}
+
+footer {
+    background-color: #FFA500;
+    text-align: center;
+    padding: 2%;
+
+}
+.logo_footer {
+    width: 110px;
+    height: 70px;
+}
+
+.copyright {
+    color: #000000;
+	font-size: 16px;
+	margin-top: 20px;
+    font-family: 'Belleza', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+    
