@@ -84,17 +84,16 @@
     }
 
     .exemplos_segmentos_detalhe {
-        padding-top: 8%;
+        padding-top: 6%;
         transition: 1s all;
-        margin-bottom: 10px;
-        width: 83%;
-        height: 230px;
+        margin-bottom: 12px;
+        width: 82%;
     }
 
-    p {
+    .segmentos_exemplo {
         transition: 1s all;
-        font-size: 18px;
-        text-align: center;
+        font-size: 20px;
+        text-align: justify;
     }
 
     /*contato*/
@@ -142,7 +141,7 @@
     }
 }
 
-@media (min-width: 801px) and (max-width: 1400px) {
+@media (min-width: 801px) and (max-width: 1420px) {
     
     /* header*/
 
@@ -239,18 +238,26 @@
         transition: 1s all;
         margin-bottom: 10px;
         width: 50%;
-        height: 260px;
     }
 
-    p {
+    .segmentos_exemplo {
+        padding-left: 20px;
         transition: 1s all;
-        font-size: 22px;
-        text-align: center;
+        font-size: 20px;
+        text-align: justify;
     }
 
     /*contato*/
 
     .input_padrao {
         width: 60%;
+    }
+}
+
+@media (min-width: 1421px) and (max-width: 1620px) {
+    .segmentos_exemplo {
+        transition: 1s all;
+        padding-left: 15px;
+        font-size: 21px;
     }
 }
